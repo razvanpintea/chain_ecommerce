@@ -1,7 +1,11 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: ['razwebdev.com', 'vlkxhabmmxiwvlymbfgy.supabase.co'], // Add both required domains
+  },
+  reactStrictMode: true,
+  swcMinify: true,
+}
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+module.exports = nextConfig
 
-export default nextConfig;
