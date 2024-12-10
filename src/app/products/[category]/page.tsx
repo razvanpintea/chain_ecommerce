@@ -2,7 +2,10 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { getProductsByCategory, getCategories } from "../../actions/getProducts";
+import {
+  getProductsByCategory,
+  getCategories,
+} from "../../actions/getProducts";
 
 export async function generateStaticParams() {
   const categories = await getCategories();
@@ -32,7 +35,10 @@ export default async function CategoryPage({
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="bg-gray-800 rounded-lg overflow-hidden group">
+          <div
+            key={product.id}
+            className="bg-gray-800 rounded-lg overflow-hidden group"
+          >
             <Link
               href={`/products/${category}/${product.name}`}
               className="block"
@@ -48,7 +54,13 @@ export default async function CategoryPage({
               </div>
               <div className="p-4">
                 <h2 className="text-xl font-semibold mb-2 text-white">
-                  {product.name}
+                  {product.name
+                    .split("-")
+                    .map(
+                      (word: string) =>
+                        word.charAt(0).toUpperCase() + word.slice(1)
+                    )
+                    .join(" ")}
                 </h2>
                 <p className="text-gray-400 mb-4">{product.price} RON</p>
               </div>
@@ -62,4 +74,3 @@ export default async function CategoryPage({
     </div>
   );
 }
-

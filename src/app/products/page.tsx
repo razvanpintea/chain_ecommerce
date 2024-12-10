@@ -14,16 +14,24 @@ export default async function ProductsPage() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => {
-            const category = product.categories?.name?.toLowerCase() || "'uncategorized'";
+            const category =
+              product.categories?.name?.toLowerCase() || "uncategorized";
             return (
-              <div key={product.id} className="bg-gray-800 rounded-lg overflow-hidden group">
+              <div
+                key={product.id}
+                className="bg-gray-800 rounded-lg overflow-hidden group"
+              >
                 <Link
-                  href={`/products/${category}/${product.name.toLowerCase().replace(/\s+/g, "-")}`}
+                  href={`/products/${category}/${product.name
+                    .toLowerCase()
+                    .replace(/\s+/g, "-")}`}
                   className="block"
                 >
                   <div className="relative h-48">
                     <Image
-                      src={product.img || "/placeholder.svg?height=300&width=300"}
+                      src={
+                        product.img || "/placeholder.svg?height=300&width=300"
+                      }
                       alt={product.name}
                       layout="fill"
                       objectFit="cover"
@@ -32,15 +40,19 @@ export default async function ProductsPage() {
                   </div>
                   <div className="p-4">
                     <h2 className="text-xl font-semibold mb-2 text-white">
-                      {product.name}
+                      {product.name
+                        .split("-")
+                        .map(
+                          (word: string) =>
+                            word.charAt(0).toUpperCase() + word.slice(1)
+                        )
+                        .join(" ")}
                     </h2>
                     <p className="text-gray-400 mb-2">{product.price} RON</p>
                   </div>
                 </Link>
                 <div className="px-4 pb-4">
-                  <Button className="w-full">
-                    Add to Cart
-                  </Button>
+                  <Button className="w-full">Add to Cart</Button>
                 </div>
               </div>
             );
@@ -50,4 +62,3 @@ export default async function ProductsPage() {
     </div>
   );
 }
-
