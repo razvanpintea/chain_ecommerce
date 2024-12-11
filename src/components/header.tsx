@@ -8,7 +8,7 @@ const Header = async () => {
   const cartItemCount = 3; // This will be replaced with actual cart data later
 
   return (
-    <header className="bg-gray-800 py-4">
+    <header className="fixed top-0 left-0 right-0 bg-gray-800 py-4 z-50 border-b border-gray-700">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
           ChainMaster
@@ -27,8 +27,7 @@ const Header = async () => {
                   className="hover:text-gray-300"
                 >
                   {category.name.charAt(0).toUpperCase() +
-                    category.name.slice(1).toLowerCase()}
-                  {""}
+                    category.name.slice(1).toLowerCase()}{" "}
                 </Link>
               </li>
             ))}

@@ -17,8 +17,8 @@ export default async function ProductPage({
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
-        <div className="w-full max-w-md mx-auto lg:max-w-lg aspect-square lg:aspect-[4/3] relative rounded-lg overflow-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+        <div className="w-full aspect-square lg:aspect-[4/5] relative rounded-lg overflow-hidden">
           <Image
             src={product.img || "/placeholder.svg?height=800&width=600"}
             alt={product.name}
