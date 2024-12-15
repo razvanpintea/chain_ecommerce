@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">ChainMaster</h3>
             <p className="text-gray-400">
-              Elevating men's style with premium jewelry since 2023.
+              Elevating men&apos;s style with premium jewelry since 2023.
             </p>
           </div>
           <div>

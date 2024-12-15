@@ -8,7 +8,7 @@ export default async function ProductPage({
 }: {
   params: Promise<{ product_name: string; category: string }>;
 }) {
-  const { product_name, category } = await params;
+  const { product_name } = await params;
   const product = await getProductByName(product_name);
 
   if (!product) {

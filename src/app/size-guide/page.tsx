@@ -95,27 +95,31 @@ export default function SizeGuidePage() {
             </TableHeader>
             <TableBody>
               <TableRow>
-                <TableCell className="text-gray-300">14"</TableCell>
+                <TableCell className="text-gray-300">14&quot;</TableCell>
                 <TableCell className="text-gray-300">35.6 cm</TableCell>
                 <TableCell className="text-gray-300">Collar</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="text-gray-300">16"</TableCell>
+                <TableCell className="text-gray-300">16&quot;</TableCell>
                 <TableCell className="text-gray-300">40.6 cm</TableCell>
                 <TableCell className="text-gray-300">Choker</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="text-gray-300">18"</TableCell>
+                <TableCell className="text-gray-300">18&quot;</TableCell>
                 <TableCell className="text-gray-300">45.7 cm</TableCell>
                 <TableCell className="text-gray-300">Princess</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="text-gray-300">20"-24"</TableCell>
+                <TableCell className="text-gray-300">
+                  20&quot;-24&quot;
+                </TableCell>
                 <TableCell className="text-gray-300">50.8-61 cm</TableCell>
                 <TableCell className="text-gray-300">Matinee</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="text-gray-300">28"-36"</TableCell>
+                <TableCell className="text-gray-300">
+                  28&quot;-36&quot;
+                </TableCell>
                 <TableCell className="text-gray-300">71.1-91.4 cm</TableCell>
                 <TableCell className="text-gray-300">Opera</TableCell>
               </TableRow>
@@ -141,24 +145,44 @@ export default function SizeGuidePage() {
             </TableHeader>
             <TableBody>
               <TableRow>
-                <TableCell className="text-gray-300">6" (15.2 cm)</TableCell>
-                <TableCell className="text-gray-300">6.5" (16.5 cm)</TableCell>
+                <TableCell className="text-gray-300">
+                  6&quot; (15.2 cm)
+                </TableCell>
+                <TableCell className="text-gray-300">
+                  6.5&quot; (16.5 cm)
+                </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="text-gray-300">6.5" (16.5 cm)</TableCell>
-                <TableCell className="text-gray-300">7" (17.8 cm)</TableCell>
+                <TableCell className="text-gray-300">
+                  6.5&quot; (16.5 cm)
+                </TableCell>
+                <TableCell className="text-gray-300">
+                  7&quot; (17.8 cm)
+                </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="text-gray-300">7" (17.8 cm)</TableCell>
-                <TableCell className="text-gray-300">7.5" (19.1 cm)</TableCell>
+                <TableCell className="text-gray-300">
+                  7&quot; (17.8 cm)
+                </TableCell>
+                <TableCell className="text-gray-300">
+                  7.5&quot; (19.1 cm)
+                </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="text-gray-300">7.5" (19.1 cm)</TableCell>
-                <TableCell className="text-gray-300">8" (20.3 cm)</TableCell>
+                <TableCell className="text-gray-300">
+                  7.5&quot; (19.1 cm)
+                </TableCell>
+                <TableCell className="text-gray-300">
+                  8&quot; (20.3 cm)
+                </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="text-gray-300">8" (20.3 cm)</TableCell>
-                <TableCell className="text-gray-300">8.5" (21.6 cm)</TableCell>
+                <TableCell className="text-gray-300">
+                  8&quot; (20.3 cm)
+                </TableCell>
+                <TableCell className="text-gray-300">
+                  8.5&quot; (21.6 cm)
+                </TableCell>
               </TableRow>
             </TableBody>
           </Table>

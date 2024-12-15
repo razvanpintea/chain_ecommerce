@@ -27,7 +27,7 @@ export default function WarrantyPage() {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-white">
-          What's Covered
+          What&apos;s Covered
         </h2>
         <ul className="list-disc list-inside text-gray-300 space-y-2">
           <li>Manufacturing defects in materials and workmanship</li>
@@ -39,7 +39,7 @@ export default function WarrantyPage() {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-white">
-          What's Not Covered
+          What&apos;s Not Covered
         </h2>
         <ul className="list-disc list-inside text-gray-300 space-y-2">
           <li>Normal wear and tear</li>

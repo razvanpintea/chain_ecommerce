@@ -20,8 +20,8 @@ export default function ReturnsPage() {
         </h2>
         <p className="text-gray-300 mb-4">
           At ChainMaster, we want you to be completely satisfied with your
-          purchase. If you're not happy with your order for any reason, we offer
-          a 30-day return policy for most items.
+          purchase. If you&apos;re not happy with your order for any reason, we
+          offer a 30-day return policy for most items.
         </p>
       </section>
 
@@ -43,8 +43,8 @@ export default function ReturnsPage() {
             Ship the package to our returns address (provided on the form).
           </li>
           <li>
-            Once we receive and process your return, we'll issue a refund to
-            your original payment method.
+            Once we receive and process your return, we&apos;ll issue a refund
+            to your original payment method.
           </li>
         </ol>
       </section>
@@ -97,7 +97,7 @@ export default function ReturnsPage() {
         <h2 className="text-2xl font-semibold mb-4 text-white">Need Help?</h2>
         <p className="text-gray-300 mb-4">
           If you have any questions about our return policy or need assistance
-          with a return, please don't hesitate to contact us.
+          with a return, please don&apos;t hesitate to contact us.
         </p>
         <Button asChild>
           <Link href="/contact">Contact Customer Service</Link>

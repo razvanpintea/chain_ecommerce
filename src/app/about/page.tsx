@@ -22,14 +22,14 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4 text-white">Our Story</h2>
           <p className="text-gray-300 mb-4">
             Founded in 2023, ChainMaster was born from a passion for crafting
-            exquisite men's jewelry. Our journey began in a small workshop,
+            exquisite men&apos;s jewelry. Our journey began in a small workshop,
             where we combined traditional craftsmanship with modern design to
             create pieces that truly stand out.
           </p>
           <p className="text-gray-300">
-            Today, we continue to push the boundaries of men's fashion, offering
-            a curated selection of chains, bracelets, and rings that empower men
-            to express their unique style.
+            Today, we continue to push the boundaries of men&apos;s fashion,
+            offering a curated selection of chains, bracelets, and rings that
+            empower men to express their unique style.
           </p>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function AboutPage() {
             Customer Focus
           </h3>
           <p className="text-gray-300">
-            Your satisfaction is our priority. We're committed to providing
+            Your satisfaction is our priority. We&apos;re committed to providing
             exceptional service and support.
           </p>
         </div>

@@ -85,7 +85,7 @@ export default function ShippingPage() {
         <p className="text-gray-300 mb-4">
           Once your order has been shipped, you will receive a confirmation
           email with a tracking number. You can use this number to track your
-          package's progress on our website or the carrier's website.
+          package&apos;s progress on our website or the carrier&apos;s website.
         </p>
       </section>
 

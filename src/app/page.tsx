@@ -2,7 +2,6 @@ import Hero from "../components/hero";
 import Categories from "../components/categories";
 import WhyChooseUs from "../components/why-choose-us";
 import Newsletter from "../components/newsletter";
-import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -16,4 +15,3 @@ export default function Home() {
     </div>
   );
 }
-
